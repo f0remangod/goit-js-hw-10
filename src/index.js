@@ -1,11 +1,11 @@
-import { refs } from './refs';
+import { refs } from './js/refs';
 import './css/styles.css';
-import { fetchCountries } from './fetchCountries.js';
+import { fetchCountries } from './js/fetchCountries.js';
 import {
   makeSingleCardMarkup,
   makeListMarkup,
   clearMarkup,
-} from './createMarkup';
+} from './js/createMarkup';
 import debounce from 'lodash.debounce';
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
 import 'notiflix/dist/notiflix-3.2.5.min.css';
